@@ -34,8 +34,8 @@ function tablebuild(data) {
 	
 	});
 	return table;
-}}
+}
 
-  document.body.appendChild(buildTable(MOUNTAINS));
+  document.body.appendChild(tablebuild(MOUNTAINS));
 
 
